@@ -1,0 +1,93 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(135deg, #6e8efb, #a777e3); */
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+  }
+  
+  /* Login Container */
+  .login-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 40px;
+    width: 100%;
+    max-width: 350px;
+    text-align: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Heading */
+  .heading {
+    font-size: 26px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  .login-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: 0.3s ease;
+  }
+  
+  .login-form input:focus {
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Button */
+  button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #fff;
+    color: #6e8efb;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background: #6e8efb;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Error Message */
+  p {
+    color: #ff4d4d;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  /* Register Link */
+  p a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }
+  
